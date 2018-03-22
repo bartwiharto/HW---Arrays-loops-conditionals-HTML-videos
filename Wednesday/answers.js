@@ -60,13 +60,59 @@
 // krystin [2] = "Brooklyn";
 
 //Yell at the Ninja Turtles:
-//1.
-const ninjaT = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+// //1.
+// const ninjaT = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 
-//2.
-for(let i = 0; i < ninjaT.length; i++) {
-	console.log(ninjaT[i].toUpperCase());
-}
+// //2.
+// for(let i = 0; i < ninjaT.length; i++) {
+// 	console.log(ninjaT[i].toUpperCase());
+// }
+
+
+// Return of the closet (not finished)
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
