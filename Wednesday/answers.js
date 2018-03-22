@@ -45,20 +45,28 @@
 
 // Getting to know you:
 
-const thom = ["Thom", 1000, "Christchurch"];
-const karolin = ["Karolin", 16, "New York"];
-const kristyn = ["Kristyn", 5, "Pittsburgh"];
-const matt = ["Matt H", 186, "Philadelphia"];
+// const thom = ["Thom", 1000, "Christchurch"];
+// const karolin = ["Karolin", 16, "New York"];
+// const kristyn = ["Kristyn", 5, "Pittsburgh"];
+// const matt = ["Matt H", 186, "Philadelphia"];
 
+// //1.
+// thom [0] = "Gameboy";
+// //2.
+// karolin [1] = 17;
+// //3.
+// matt [2] = "Gotham City";
+// //4.
+// krystin [2] = "Brooklyn";
+
+//Yell at the Ninja Turtles:
 //1.
-thom [0] = "Gameboy";
-//2.
-karolin [1] = 17;
-//3.
-matt [2] = "Gotham City";
-//4.
-krystin [2] = "Brooklyn";
+const ninjaT = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 
+//2.
+for(let i = 0; i < ninjaT.length; i++) {
+	console.log(ninjaT[i].toUpperCase());
+}
 
 
 
