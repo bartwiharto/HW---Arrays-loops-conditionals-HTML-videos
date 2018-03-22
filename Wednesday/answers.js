@@ -10,7 +10,7 @@
 // 	console.log(i);
 // }
 
-//Damn Kitten:
+//Damn Kitten: (Not answered)
 
 // 1.
 // 
@@ -29,13 +29,19 @@
 // for(let i = 0; i <= 20; i++) {
 // 	console.log(i);
 
-// 3.
+// 3. FizzBuzz
 
 for(let i = 1; i <= 100; i++) {
-	console.log(i);
+	if (i % 3 === 0 && i % 5 === 0){
+		console.log("FizzBuzz");
+	} else if (i % 3 === 0) { 
+		console.log("Fizz");
+	} else if (i % 5 === 0) {
+		console.log("Buzz");
+	} else {
+		console.log(i);
+	}
 }
-
-
 
 
 
